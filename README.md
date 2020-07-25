@@ -1,4 +1,10 @@
 <h2 align= "center">     
    Rock, paper and scissor game
 </h2>
-<img src= "https://cdn.zmescience.com/wp-content/uploads/2017/08/rock-paper-scissors-156171_960_720.png" width= 190px align= "center"></img>
+<p>
+   <img src= "https://cdn.zmescience.com/wp-content/uploads/2017/08/rock-paper-scissors-156171_960_720.png" width= 190px align= "right"></img>
+   It's just a simple rock, paper and scissor game who i made to pratice python, it works like the example above:
+   
+   <img src= "https://user-images.githubusercontent.com/65914461/88447785-a9fc4380-ce0d-11ea-9f80-d46084ff7529.gif"></img>
+</p>
+
