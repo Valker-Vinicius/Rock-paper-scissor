@@ -1,17 +1,17 @@
 from random import choice
-from facilitators import color
+from facilitators import color            # It's my library for makes easy to program in Python 
 
 options = ('rock','paper','scissor')
 
 while True:
-    print(color.bolder())
+    print(color.bolder())         # It's just to make the text in bolder
 
     user_choice = " "
     machine = choice(options)
-    player = str(input("Let's play rock, paper or scissor, so, make your choice: ")).strip().lower()
+    player = str(input("Let's play rock, paper or scissor, so, make your choice: ")).strip().lower()   # Like this the input turns lower, what provide me more facilite to work with it
     
     if player not in options:
-        print(color.red("please select a valid option"))
+        print(color.red("please select a valid option"))         # Filter the input value
     
     else:
         print(f"As you choiced {color.blue(player)} and i choiced {color.blue(machine)}")
@@ -32,8 +32,8 @@ while True:
         else:
             print(color.green("You win!"))
 
-        while user_choice not in "NY":
-            user_choice = str(input("Do you want to stay playing? [Y/N] ")).upper()
+        while user_choice not in "NY":         # Verify the choice of the player 
+            user_choice = str(input("Do you want to stay playing? [Y/N] ")).upper()    
 
         if user_choice == "N":
             print('E X I T I N G...')
